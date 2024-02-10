@@ -1,10 +1,5 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
-
-
-![login page](./images/snappy_login.png)
-
-![home page](./images/snappy.png)
+# Haikyu - Chat Application 
+Haikyu is chat application build with the power of MERN Stack.
 
 ## Installation Guide
 
@@ -12,21 +7,10 @@ Snappy is chat application build with the power of MERN Stack. You can find the 
 - [Nodejs](https://nodejs.org/en/download)
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 
-Both should be installed and make sure mongodb is running.
 
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
+It is importent to change the name of environment variable file
 Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
+
 
 Now install the dependencies
 ```shell
@@ -35,6 +19,9 @@ yarn
 cd ..
 cd public
 yarn
+
+cd main
+node
 ```
 We are almost done, Now just start the development server.
 
@@ -42,6 +29,11 @@ For Frontend.
 ```shell
 cd public
 yarn start
+```
+For Frontend main page.
+```shell
+cd main
+npm run run
 ```
 For Backend.
 
@@ -51,4 +43,5 @@ cd server
 yarn start
 ```
 
-Done! Now open localhost:3000 in your browser.
+Once all the setup done open http://localhost:9000
+you will see the home page where will see the chatbot by botpress for basic querry and on the shop details page you can chat with the admin.
