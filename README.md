@@ -45,3 +45,8 @@ yarn start
 
 Once all the setup done open http://localhost:9000
 you will see the home page where will see the chatbot by botpress for basic querry and on the shop details page you can chat with the admin.
+
+
+Admin details
+Username - gufranalam226
+Password - Gufran@123
